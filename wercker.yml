@@ -15,8 +15,9 @@ build:
   steps:
     # A step that executes `gradle build` command
     - script:
-    code: |
-        env
+        name: env
+        code: |
+            env
         
     - script:
         name: gradle build
